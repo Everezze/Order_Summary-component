@@ -54,6 +54,11 @@ aside{
 
 h2{
     margin: 1.5rem;
+    color: hsl(223, 47%, 23%);
+}
+
+h4{
+    color: hsl(223, 47%, 23%);
 }
 
 .description{
@@ -98,8 +103,30 @@ h2{
     color: hsl(245, 75%, 52%);
 }
 
+.cancel_link:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+.change_link:hover{
+    cursor: pointer;
+    color: hsl(245, 75%, 65%);
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(245, 75%, 65%);
+}
+
 @media screen and (min-width:769px) {
     article{
         max-width: 400px;
+    }
+
+    main{
+        background-image:url("./images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 }
