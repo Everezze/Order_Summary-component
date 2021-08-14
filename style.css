@@ -5,12 +5,46 @@
     font-family: 'Red Hat Display', sans-serif;
 }
 
+body{
+    min-height: 100vh;
+}
+
 article{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1rem;
 }
 
 section{
     display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 1rem;
+    border-radius: .7rem;
+    background-color: hsl(225, 100%, 98%);
+}
+
+button{
+    width: 80%;
+    padding: 1rem 2rem;
+    border: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: .7rem;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    padding: 1rem;
+    border-bottom: black;
+}
+
+.grey_text{
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel_link,button{
+    font-weight: 700;
 }
