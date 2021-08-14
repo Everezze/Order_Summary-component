@@ -23,6 +23,7 @@ article{
     font-size: 1rem;
     width: 90%;
     background-color: white;
+    max-width: 400px;
 }
 
 section{
@@ -43,6 +44,7 @@ button{
     background-color: hsl(245, 75%, 52%);
     border-radius: .7rem;
     font-size: 1rem;
+    box-shadow: 2px 20px 20px hsl(245, 75%, 90%);
 }
 
 aside{
