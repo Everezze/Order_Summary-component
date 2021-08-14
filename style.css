@@ -6,6 +6,13 @@
 }
 
 body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
 }
 
@@ -14,19 +21,22 @@ article{
     flex-direction: column;
     align-items: center;
     font-size: 1rem;
+    width: 90%;
+    background-color: white;
 }
 
 section{
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 85%;
     padding: 1rem;
     border-radius: .7rem;
     background-color: hsl(225, 100%, 98%);
+    justify-content: space-between;
 }
 
 button{
-    width: 80%;
+    width: 85%;
     padding: 1rem 2rem;
     border: none;
     color: white;
@@ -35,10 +45,21 @@ button{
     font-size: 1rem;
 }
 
-a{
-    text-decoration: none;
-    padding: 1rem;
-    border-bottom: black;
+aside{
+    width: 100%;
+}
+
+h2{
+    margin: 1.5rem;
+}
+
+.description{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.hero_image{
+    width: 100%;
 }
 
 .grey_text{
@@ -47,4 +68,29 @@ a{
 
 .cancel_link,button{
     font-weight: 700;
+}
+
+.cancel_link{
+    text-decoration: none;
+    margin: 1.5rem 0 2rem;
+}
+
+.description, section{
+    margin-bottom: 1.5rem;
+}
+
+.left_section{
+    display: flex;
+    align-items: center;
+}
+
+.price_section{
+    padding-left: 1.5rem;
+    line-height: 1.5;
+}
+
+.change_link{
+    font-size: .9rem;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
 }
