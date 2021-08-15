@@ -25,8 +25,8 @@ Users should be able to:
 ![My result of the Order summary card coding challenge](myResultOfOrderSummaryCardChallenge.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Everezze/Order_Summary-component)
-- Live Site URL: [Add live site URL here](https://everezze.github.io/Order_Summary-component/)
+- Solution URL: [the github](https://github.com/Everezze/Order_Summary-component)
+- Live Site URL: [the solution page online](https://everezze.github.io/Order_Summary-component/)
 
 ## My process
 
