@@ -127,6 +127,6 @@ button:hover{
     main{
         background-image:url("./images/pattern-background-desktop.svg");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 100vw 50vh;
     }
 }
